@@ -1,0 +1,181 @@
+/* .b1 {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.b1:hover, .b1:focus {
+    background-color: #2980B9;
+}
+
+.test {
+    position: relative;
+    display: inline-block;
+}
+
+.out {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.out p{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.out :hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+} */
+
+/* .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  Dropdown button on hover & focus */
+/* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+
+/* Dropdown Content (Hidden by Default) */
+/* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+
+/* Links inside the dropdown */
+/* .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd} */
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/* .show {display:block;} */
+
+
+
+
+.canvas {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.bulb-off {
+    width: 265px;
+    height: 400px;
+    background: url('/image/lightoff.png') no-repeat;
+    margin: 0px 9px 0px -4px;
+}
+
+.bulb-on {
+    width: 265px;
+    height: 400px;
+    background: url('/image/lighton.png') no-repeat;
+    ;
+    margin: 0px 9px 0px -4px;
+}
+
+.package-pack {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+}
+
+.featured {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.package-name {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-size: 33px;
+}
+
+.price {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+}
+
+.disclaimer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.button-primary {
+    background: black;
+    color: white;
+    padding: 5px 40px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.featured1 {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package-name1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-size: 30px;
+}
+
+.price1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+}
+
+.disclaimer1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+}
+
+.button-primary1 {
+    background: black;
+    color: white;
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}
